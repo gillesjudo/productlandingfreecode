@@ -1,3 +1,10 @@
+@media screen and (max-width:600px) {
+    body {
+        background-color: bisque;
+        text-align: center;
+        max-width: fit-content;
+    }
+}
 body {
     text-align: center;
     background-color: seashell;
@@ -6,7 +13,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color:gray;
+    background-color:goldenrod;
+    position: fixed;
 
 }
 #nav-bar ul {
@@ -15,7 +23,7 @@ body {
     padding: 0;
     float: right;
     width: 100px;
-    background-color: white;
+    background-color: goldenrod;
     text-decoration: none;
 }
 #nav-bar ul li{
@@ -32,11 +40,11 @@ body {
     float:left;
     height: 150px;
     width: 150px;
-    {
-
 }
-
 #pricing table {
-    margin-left: auto;
-    margin-right: auto;
+margin-left: auto;
+margin-right: auto;
 }
+
+
+

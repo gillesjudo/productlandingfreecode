@@ -18,9 +18,9 @@
             <br>
             <h1>Hermes Scooters</h1>
             <h2>Join our mailing list</h2>
-            <form id="form">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <label for="email">Join our mailing list</label><br>
-                <input id="email" type="email"  placeholder="JohnDoe@gmail.com" required><br>
+                <input id="email" name="email" type="email"  placeholder="JohnDoe@gmail.com" required><br>
                 <input id="submit" type="submit" value="Get Started">
             </form>
         </header>
@@ -32,7 +32,7 @@
             <h2>Quality Assurance</h2>
             <p>Our scooters have regular maitenance and are ensured to be fault and damage free</p>
         </div>
-        <iframe src="https://www.youtube.com/embed/tuPyVIxkkL4"></iframe>
+        <iframe id="video" src="https://www.youtube.com/embed/tuPyVIxkkL4"></iframe>
         <div id="about-us">
             <h3>About Us</h3>
         <p>Hermes Scooters was founded with the goal of making motorized travel accessible for city dwellers.
@@ -53,9 +53,15 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td> <button type="button">Select Package One</button></td>
-                    <td><button type="button">Select Package Two</button> </td>
-                    <td>  <button type="button">Select Package Three</button></td>
+                    <td> <p>For the monthly price of <strong>100</strong> dollars<br> per month,
+                        you can rent a new<br> scooter every month for <br>a unique riding experience.</p>
+                        <button type="button">Select Package One</button></td>
+                    <td><p>For the monthly price of <strong>1000</strong><br> dollars per annum,
+                    you can get the<br> same as package one <br> with insurance included.</p>
+                        <button type="button">Select Package Two</button> </td>
+                    <td> <p>For the monthly price of <strong>$400</strong>, per month,<br>
+                    you can get premium access to<br> high speed luxary scooters,<br> insurance and a money back guarantee.   
+                    </p> <button type="button">Select Package Three</button></td>
                 </tr>
             </tbody>
             </table><br>
